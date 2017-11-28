@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box-model</title>
+    <style>
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    .simple{
+        background-color: #4285f4;
+        width:500px;
+        margin: 20px auto;
+    }
+    .fancy{
+        background-color: #34a853;
+        width: 500px;
+        margin: 20px auto;
+        padding:50px;
+        border-width: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="simple">我小一些</div>
+    <div class="fancy">我比他大</div>
+</body>
+</html>
